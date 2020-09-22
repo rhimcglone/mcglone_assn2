@@ -17,9 +17,9 @@
 
 #reverse sort the table by trappability
 
-        cat header sorted_snakes.txt > assn2.gz
+        cat header sorted_snakes.txt | column -t > assn2.gz
 
-#combine files to create final table with the header
+#combine files to create final readable table with the header
 
 	cat assn2.gz
 
