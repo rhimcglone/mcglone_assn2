@@ -17,13 +17,13 @@
 
 #reverse sort the table by trappability
 
-        cat header sorted_snakes.txt | column -t > assn2.gz
+        cat header sorted_snakes.txt | column -t > assn2
 
-#combine files to create final readable table with the header
+#combine files to create a final readable table with the header
 
-	cat assn2.gz
+	gzip assn2
 
-#write the contents of the table to the terminal
+#assn2.gz will be the stdout
 
 rm columns.txt header snakes.txt sorted_snakes.txt
 
