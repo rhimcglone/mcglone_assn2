@@ -5,10 +5,6 @@ touch child_script.sh
 
 #create a child script within the parent script
 
-chmod uo+x child_script.sh
-
-#change the permissions of the child script
-
 	echo "#! /bin/bash" >> child_script.sh
 
 	#create a bash script within the child script
