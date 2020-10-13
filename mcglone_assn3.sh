@@ -1,5 +1,7 @@
 #! /bin/bash
 
+#create a bash script
+
 cut -f 1 BTS_data.txt | sort | uniq | grep -v ID > BTS_uniq
 
 #create a new file containing unique snakes, without the header
